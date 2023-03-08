@@ -97,6 +97,9 @@ public class MediaRentalSystem {
     /**
      * A private class that implements the ActionListener interface to handle the "Load Media" menu item.
      */
+    /**
+     * A private class that implements the ActionListener interface to handle the "Load Media" menu item.
+     */
     class LoadListener implements ActionListener {
         /**
          * A method that displays a file chooser dialog and loads media from a selected CSV file.
@@ -126,6 +129,7 @@ public class MediaRentalSystem {
         }
     }
 
+
     /**
      * A static nested class that implements the ActionListener interface to handle the "Exit" menu item.
      */
@@ -150,6 +154,10 @@ public class MediaRentalSystem {
          */
         public void actionPerformed(ActionEvent event) {
             String title = findField.getText().toLowerCase();
+            if (title.isEmpty()) {
+                displayArea.setText("Please enter a valid title.");
+                return;
+            }
             List<Media> foundMedia = manager.findMedia(title);
 
             if (!foundMedia.isEmpty()) {
@@ -192,6 +200,10 @@ public class MediaRentalSystem {
          */
         public void actionPerformed(ActionEvent event) {
             String idString = rentField.getText();
+            if (idString.isEmpty()) {
+                displayArea.setText("Please enter a valid ID.");
+                return;
+            }
             int id = Integer.parseInt(idString);
 
             try {
@@ -202,4 +214,5 @@ public class MediaRentalSystem {
             }
         }
     }
+
 }

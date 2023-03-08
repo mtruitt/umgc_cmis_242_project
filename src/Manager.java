@@ -45,17 +45,36 @@ public class Manager {
             if (scanner.hasNextInt()) {
                 year = scanner.nextInt();
             } else {
-                scanner.next();
-                year = 0;
+                throw new IllegalArgumentException("Invalid value for 'year'. Please enter a valid integer.");
+            }
+            // Check for missing or invalid values for 'size'
+            if (!scanner.hasNextDouble()) {
+                throw new IllegalArgumentException("Missing or invalid value for 'size'. Please enter a valid decimal number.");
             }
             double size = scanner.nextDouble();
+            if (size <= 0) {
+                throw new IllegalArgumentException("Invalid value for 'size'. Please enter a positive number.");
+            }
+
+            // Check for missing or invalid values for 'rental fee'
+            if (!scanner.hasNext()) {
+                throw new IllegalArgumentException("Missing value for 'rental fee'");
+            }
             String rentalFeeString = scanner.next();
             double rentalFee;
             try {
                 rentalFee = Double.parseDouble(rentalFeeString);
             } catch (NumberFormatException e) {
-                rentalFee = Integer.parseInt(rentalFeeString);
+                try {
+                    rentalFee = Integer.parseInt(rentalFeeString);
+                } catch (NumberFormatException e2) {
+                    throw new IllegalArgumentException("Invalid value for 'rental fee'. Please enter a valid decimal or integer number.");
+                }
             }
+            if (rentalFee <= 0) {
+                throw new IllegalArgumentException("Invalid value for 'rental fee'. Please enter a positive number.");
+            }
+
 
             // Create a new Media object based on the type
             switch (type.toLowerCase()) {

@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a80ed69f-3301-418c-867a-6a7cbacc1ef6" name="Changes" comment="Initial Commit">
+    <list default="true" id="a80ed69f-3301-418c-867a-6a7cbacc1ef6" name="Changes" comment="Added media.csv&#10;&#10;Test/Example file for Rent Media Program">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MediaRentalSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MediaRentalSystem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,19 +36,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/matru/Dropbox/UMGC/cmis_242/week_8/Project",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/matru/Dropbox/UMGC/cmis_242/week_8/Project&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\matru\Dropbox\UMGC\cmis_242\week_8\Project" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -57,7 +64,8 @@
       <updated>1677988372501</updated>
       <workItem from="1677988373537" duration="420000" />
       <workItem from="1678120625124" duration="7344000" />
-      <workItem from="1678149690660" duration="10002000" />
+      <workItem from="1678149690660" duration="12457000" />
+      <workItem from="1678238415210" duration="2084000" />
     </task>
     <task id="LOCAL-00001" summary="Intial Commit">
       <created>1678234930806</created>
@@ -73,7 +81,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678234992458</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added Readme.md">
+      <created>1678235609422</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678235609422</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added media.csv&#10;&#10;Test/Example file for Rent Media Program">
+      <created>1678235839469</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678235839469</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,6 +121,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Intial Commit" />
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="Added Readme.md" />
+    <MESSAGE value="Added media.csv&#10;&#10;Test/Example file for Rent Media Program" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added media.csv&#10;&#10;Test/Example file for Rent Media Program" />
   </component>
 </project>
